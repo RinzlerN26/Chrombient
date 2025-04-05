@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Ambient Theme",
+  "version": "1.0",
+  "description": "A ambient theme for chrome.",
+  "theme": {
+    "colors": {
+      "frame": [17, 24, 48],
+      "toolbar": [17, 24, 48],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "ntp_background": [17, 24, 48],
+      "ntp_text": [255, 255, 255],
+      "bookmark_text": [255, 255, 255]
+    },
+    "images": {
+      "theme_frame": "images/Background.jpg",
+      "theme_ntp_background": "images/Background.jpg"
+    },
+    "tints": {
+      "buttons": [0.33, 0.5, 0.47]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
